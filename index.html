@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HamzaKhan_DOM_Assignment_3</title>
+    <script async src="script.js"></script>
+    <style>
+        body{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        button{
+            padding:15px 20px;
+            
+        }
+    </style>
+</head>
+<body>
+    <h1></h1>
+    <p>See Console</p>
+    
+    <img id="imgSrc" src="../Hamza_DOM_Assignment-3/images/horse1.jpg" alt="horsePicture" width="700px">
+    
+    
+    
+    <h1>Task-2: Changing Image Source</h1>
+    <img id="img2" src="../Hamza_DOM_Assignment-3/images/christels-horse-3767387.jpg"  width="700px" alt="horse34">
+        <button id="btnChange" onclick="ChangeImg()">Change Picture</button>
+
+
+        <h1>Task-3: Set Attribute to input Field.</h1>
+        <p>The input placeholder is added using js dom</p>
+
+        <input type="text">
+
+        <h1>Task-4: Remove An Attribute</h1>
+
+        <input type="text" id="myInput" disabled placeholder="I am disabled">
+        
+        <button id="enable" onclick="enableButton()">Enable Input Field</button>
+
+        <h1>Task 5: Check if Attribute Exists</h1>
+
+        <p id="myParagraph" class="para">This is Paragraph with an id and a class</p>
+
+        <h1>Task-6: Change Link Destination</h1>
+
+        <a id="myLink" href="https://www.google.com" target="_blank">Visit Google</a>
+
+    <button onclick="changeLinkDestination()">Change Link</button>
+        
+</body>
+</html>
