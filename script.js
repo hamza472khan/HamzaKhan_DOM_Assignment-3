@@ -12,7 +12,7 @@ console.log(imgSrc.getAttribute("src"));
 function ChangeImg() {
     let changeImg = document.getElementById("img2")
     changeImg.removeAttribute("src");
-    changeImg.setAttribute("src", "../Hamza_DOM_Assignment-3/images/khphotography-arabian-horse-5249583.jpg");
+    changeImg.setAttribute("src", "./images/khphotography-arabian-horse-5249583.jpg");
     // changeImg.setAttribute("width", "600px")
 }
 
